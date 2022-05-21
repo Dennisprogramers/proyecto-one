@@ -1,0 +1,67 @@
+*{
+	color: white;
+	font-family: 'Lobster', 'Koulen', cursive;
+}
+body{
+	background-image: url(fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+h3{
+	font-size: 30px;
+}
+input{
+	font-size: 30px;
+	position: relative;
+	background-color: white;
+	width: 20%;
+	height: 10%;
+	border-radius: 2%;
+	color: purple;
+	overflow: hidden;
+}
+.no:hover{
+	color: red;
+	background-color: red;
+
+}
+.si:hover{
+	 background-color: purple;
+	 color: black;
+}
+.si{
+		font-size: 30px;
+	position: relative;
+	background-color: white;
+	width: 20%;
+	height: 10%;
+	border-radius: 2%;
+	color: purple;
+	overflow: hidden;
+}
+.no{
+		font-size: 30px;
+	position: relative;
+	background-color: white;
+	width: 20%;
+	height: 10%;
+	border-radius: 2%;
+	color: purple;
+	overflow: hidden;
+}
+.contenedor{
+	position: absolute; 
+   
+	width: 95%;
+	height: 500px;
+	background-color: whit;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px) {
+	body{
+		background-image: url(fondo2.jpg);
+	}
+}
