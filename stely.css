@@ -22,7 +22,7 @@ input{
 	overflow: hidden;
 }
 .no:hover{
-	color: red;
+	color: white;
 	background-color: red;
 
 }
